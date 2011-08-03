@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activerecord>, ["~> 3.0.0"])
+      s.add_runtime_dependency(%q<activerecord>, ["~> 3.1.0.rc5"])
       s.add_runtime_dependency(%q<ancestry>, ["~> 1.2.4"])
       s.add_development_dependency(%q<rspec>, ["~> 2.3.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<sqlite3-ruby>, [">= 0"])
     else
-      s.add_dependency(%q<activerecord>, ["~> 3.0.0"])
+      s.add_dependency(%q<activerecord>, ["~> 3.1.0.rc5"])
       s.add_dependency(%q<ancestry>, ["~> 1.2.4"])
       s.add_dependency(%q<rspec>, ["~> 2.3.0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<sqlite3-ruby>, [">= 0"])
     end
   else
-    s.add_dependency(%q<activerecord>, ["~> 3.0.0"])
+    s.add_dependency(%q<activerecord>, ["~> 3.1.0.rc5"])
     s.add_dependency(%q<ancestry>, ["~> 1.2.4"])
     s.add_dependency(%q<rspec>, ["~> 2.3.0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])

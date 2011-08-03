@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "activerecord", "~> 3.0.0"
+gem "activerecord", "~> 3.1.0.rc5"
 gem "ancestry", "~> 1.2.4"
 
 group :development do
